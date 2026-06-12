@@ -174,20 +174,3 @@ After importing, replace all placeholder values in the workflows with your actua
 | MIT Technology Review | RSS Feed |
 | The Guardian (Technology) | RSS Feed + API |
 | GitHub Trending | GitHub REST API |
-
-## Expected Complexity
-
-Data Aggregation + Workflow Automation + AI Processing
-
-## What Defines a Strong Project
-
-- Reliable news collection
-- Accurate categorization
-- High-quality summaries
-- Automated report generation
-- Seamless integrations
-- Scalable workflow design
-
-## Deliverable
-
-An AI-powered research agent that automatically collects, analyzes, and distributes technology news reports.
