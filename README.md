@@ -29,12 +29,29 @@ Develop an automated research workflow that reduces manual effort in discovering
 
 ## Workflows
 
-| Workflow | Description |
-|---|---|
-| `News Collection Agent` | Runs every 3 hours — fetches articles from TechCrunch, Wired, MIT Technology Review, The Guardian, and GitHub Trending, normalizes them, and stores in the database |
-| `AI Processing` | Runs every 6 hours — picks up pending articles, sends each through GPT-4o-mini for categorization, sentiment analysis, and summarization, then saves results |
-| `Daily Report Generator` | Runs every morning at 8 AM — queries the top 20 processed articles, generates a structured daily briefing, and delivers it via Discord, Slack, Gmail, and Telegram |
-| `Weekly Report Generator` | Runs every Monday at 9 AM — pulls the last 7 days of articles, generates a weekly trend report, and delivers it across all channels |
+### 1. News Collection Agent
+
+Runs every 3 hours — fetches articles from TechCrunch, Wired, MIT Technology Review, The Guardian, and GitHub Trending, normalizes them, and stores in the database.
+
+![News Collection Agent](assets/news-collection-agent.png)
+
+### 2. AI Processing
+
+Runs every 6 hours — picks up pending articles, sends each through GPT-4o-mini for categorization, sentiment analysis, and summarization, then saves results.
+
+![AI Processing](assets/ai-processing.png)
+
+### 3. Daily Report Generator
+
+Runs every morning at 8 AM — queries the top 20 processed articles, generates a structured daily briefing, and delivers it via Discord, Slack, Gmail, and Telegram.
+
+![Daily Report Generator](assets/daily-report-generator.png)
+
+### 4. Weekly Report Generator
+
+Runs every Monday at 9 AM — pulls the last 7 days of articles, generates a weekly trend report, and delivers it across all channels.
+
+![Weekly Report Generator](assets/weekly-report-generator.png)
 
 ## Architecture
 
