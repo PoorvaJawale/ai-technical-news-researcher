@@ -4,6 +4,10 @@
 
 An autonomous AI Agent that continuously gathers technology news from APIs and RSS feeds, categorizes articles, generates summaries, and delivers research reports through communication channels.
 
+## Demo
+
+[Watch the live demo](https://drive.google.com/file/d/1k7ypblr2djqkGDRVdXnK5Gi7czGrypyg/view?usp=sharing)
+
 ## Objective
 
 Develop an automated research workflow that reduces manual effort in discovering, analyzing, and distributing technology news updates.
